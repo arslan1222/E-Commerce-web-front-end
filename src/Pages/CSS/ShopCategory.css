@@ -1,0 +1,59 @@
+/* CSS/ShopCategory.css */
+.shop-category {
+    height: 100%; /* Adjust the height as needed */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(90deg, #9ad9ec 0%, #e1ffea22 60%);
+}
+
+.shop-banner-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+    padding-left: 80px;
+}
+
+.shop-banner-left h1 {
+    color: orange;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0; /* Remove default margin */
+}
+
+.shop-banner-left p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0; /* Add some margin for spacing */
+}
+
+.clr {
+    color: orange;
+}
+
+.shop-banner-left button {
+    width: 130px;
+    height: 30px;
+    margin-top: 15px;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+}
+
+.shop-banner-right {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Hide overflow to avoid image spill */
+}
+
+.shop-banner-right img {
+    width: 70%; /* Scale the width to fill the container */
+    /* Scale the height to fill the container */
+    object-fit: cover; /* Ensure the image covers the container while maintaining its aspect ratio */
+}
